@@ -1,0 +1,211 @@
+date,campaign_name,product_id,source,leads_raw,ai_leads_responded,leads_qualified_by_ai,ai_overflow_count,ai_avg_response_minutes,sentiment_positive_pct,sentiment_neutral_pct,sentiment_negative_pct,profile_gestor_atuante_pct,profile_quer_comecar_pct,profile_nao_trabalha_pct,profile_no_negocio_pct
+2026-02-26,[EPSON] Conversão - Fundo de Funil,epson_g6070,meta_ads,24,24,16,3,1.3,58.04,35.1,6.86,58.47,14.23,12.44,14.86
+2026-02-26,[EPSON] Consideração - Vídeo,epson_g6070,meta_ads,15,15,10,2,1.8,56.64,32.35,11.01,54.21,15.56,8.87,21.36
+2026-02-26,[EPSON] Remarketing - Carrinho,epson_g6070,meta_ads,17,17,12,2,2.03,60.8,29.11,10.09,54.62,15.91,9.5,19.97
+2026-02-26,[EPSON] Search - Marca,epson_g6070,google_ads,13,13,8,1,1.35,68.7,20.7,10.6,49.48,17.1,11.64,21.78
+2026-02-26,[EPSON] Search - Concorrente,epson_g6070,google_ads,10,10,5,1,2.54,61.33,28.94,9.73,57.37,15.42,7.85,19.36
+2026-02-26,[PPF] Conversão - Leads Frios,ppf,meta_ads,20,20,9,3,2.67,57.64,34.64,7.72,59.62,12.74,8.29,19.35
+2026-02-26,[PPF] Tráfego - Blog,ppf,meta_ads,16,16,6,3,2.13,57.16,33.12,9.72,53.72,12.64,14.79,18.86
+2026-02-27,[EPSON] Conversão - Fundo de Funil,epson_g6070,meta_ads,20,20,11,2,1.73,65.66,25.45,8.89,59.62,14.62,8.31,17.44
+2026-02-27,[EPSON] Consideração - Vídeo,epson_g6070,meta_ads,21,20,13,3,1.92,61.38,27.53,11.09,51.49,16.19,11.35,20.97
+2026-02-27,[EPSON] Remarketing - Carrinho,epson_g6070,meta_ads,20,20,11,2,1.7,55.54,36.47,7.99,55.77,14.64,9.43,20.15
+2026-02-27,[EPSON] Search - Marca,epson_g6070,google_ads,14,14,10,1,1.57,67.25,23.07,9.68,58.38,16.02,8.79,16.81
+2026-02-27,[EPSON] Search - Concorrente,epson_g6070,google_ads,10,10,5,1,1.59,60.91,29.35,9.74,56.67,12.81,14.42,16.11
+2026-02-27,[PPF] Conversão - Leads Frios,ppf,meta_ads,25,24,10,5,2.73,62.84,27.77,9.39,59.3,14.06,8.98,17.66
+2026-02-27,[PPF] Tráfego - Blog,ppf,meta_ads,21,21,10,5,3.2,63.49,28.18,8.33,58.54,12.8,12.17,16.49
+2026-02-28,[EPSON] Conversão - Fundo de Funil,epson_g6070,meta_ads,19,19,11,2,1.78,66.57,22.88,10.55,57.58,15.52,10.27,16.62
+2026-02-28,[EPSON] Consideração - Vídeo,epson_g6070,meta_ads,15,15,10,2,1.54,65.02,26.84,8.14,55.36,11.38,13.93,19.33
+2026-02-28,[EPSON] Remarketing - Carrinho,epson_g6070,meta_ads,19,19,13,1,1.84,57.76,33.6,8.64,53.4,14.07,12.51,20.02
+2026-02-28,[EPSON] Search - Marca,epson_g6070,google_ads,14,14,8,1,1.5,64.59,27.44,7.97,58.49,14.69,10.5,16.32
+2026-02-28,[EPSON] Search - Concorrente,epson_g6070,google_ads,12,12,6,1,2.32,61.8,28.45,9.75,53.6,16.16,13.29,16.95
+2026-02-28,[PPF] Conversão - Leads Frios,ppf,meta_ads,20,20,8,3,2.06,54.68,35.21,10.11,52.78,14.93,13.08,19.21
+2026-02-28,[PPF] Tráfego - Blog,ppf,meta_ads,23,23,9,5,1.81,54.84,34.26,10.9,57.68,14.25,10.44,17.64
+2026-03-01,[EPSON] Conversão - Fundo de Funil,epson_g6070,meta_ads,21,21,11,2,2.01,63.76,25.75,10.49,61.12,10.94,12.44,15.49
+2026-03-01,[EPSON] Consideração - Vídeo,epson_g6070,meta_ads,19,19,11,2,1.72,59.52,32.97,7.51,56.4,11.8,11.1,20.7
+2026-03-01,[EPSON] Remarketing - Carrinho,epson_g6070,meta_ads,19,19,14,2,1.35,56.74,35.62,7.64,56.31,16.67,11.6,15.43
+2026-03-01,[EPSON] Search - Marca,epson_g6070,google_ads,16,16,12,2,1.36,68.31,22.4,9.29,54.97,15.02,12.4,17.62
+2026-03-01,[EPSON] Search - Concorrente,epson_g6070,google_ads,9,9,5,1,1.82,55.4,35.57,9.03,54.81,15.33,8.69,21.17
+2026-03-01,[PPF] Conversão - Leads Frios,ppf,meta_ads,18,18,9,3,2.31,61.45,29.31,9.24,55.8,16.52,9.64,18.04
+2026-03-01,[PPF] Tráfego - Blog,ppf,meta_ads,21,21,9,3,1.84,56.1,33.1,10.8,54.73,17.4,11.42,16.45
+2026-03-02,[EPSON] Conversão - Fundo de Funil,epson_g6070,meta_ads,20,20,12,2,1.35,60.11,31.87,8.02,54.55,13.74,11.69,20.02
+2026-03-02,[EPSON] Consideração - Vídeo,epson_g6070,meta_ads,19,19,10,3,1.65,65.33,24.97,9.7,57.92,16.36,9.0,16.72
+2026-03-02,[EPSON] Remarketing - Carrinho,epson_g6070,meta_ads,17,17,13,2,1.5,63.41,25.62,10.97,52.71,14.11,12.93,20.24
+2026-03-02,[EPSON] Search - Marca,epson_g6070,google_ads,15,15,11,1,1.42,64.17,27.17,8.66,57.69,15.01,9.79,17.51
+2026-03-02,[EPSON] Search - Concorrente,epson_g6070,google_ads,13,13,7,1,1.57,67.13,25.66,7.21,57.1,16.55,12.41,13.94
+2026-03-02,[PPF] Conversão - Leads Frios,ppf,meta_ads,21,21,9,4,1.83,66.93,22.85,10.22,60.74,11.9,10.36,17.0
+2026-03-02,[PPF] Tráfego - Blog,ppf,meta_ads,21,21,9,4,2.87,61.24,29.61,9.15,51.78,17.46,10.73,20.02
+2026-03-03,[EPSON] Conversão - Fundo de Funil,epson_g6070,meta_ads,21,21,15,2,1.48,60.24,30.64,9.12,58.62,15.83,11.52,14.03
+2026-03-03,[EPSON] Consideração - Vídeo,epson_g6070,meta_ads,16,16,10,2,1.45,67.15,22.27,10.58,52.13,17.37,9.69,20.81
+2026-03-03,[EPSON] Remarketing - Carrinho,epson_g6070,meta_ads,17,17,13,1,1.55,59.76,33.37,6.87,50.76,16.22,10.12,22.9
+2026-03-03,[EPSON] Search - Marca,epson_g6070,google_ads,13,13,10,1,1.53,66.34,26.29,7.37,53.12,18.26,12.54,16.09
+2026-03-03,[EPSON] Search - Concorrente,epson_g6070,google_ads,12,12,6,1,1.79,66.98,23.8,9.22,59.95,15.08,8.52,16.45
+2026-03-03,[PPF] Conversão - Leads Frios,ppf,meta_ads,20,20,9,4,2.24,56.21,32.97,10.82,60.17,11.36,11.52,16.95
+2026-03-03,[PPF] Tráfego - Blog,ppf,meta_ads,17,17,8,3,2.37,64.45,28.41,7.14,61.77,10.71,10.51,17.0
+2026-03-04,[EPSON] Conversão - Fundo de Funil,epson_g6070,meta_ads,26,26,16,3,1.84,69.16,22.95,7.89,49.61,18.69,10.77,20.93
+2026-03-04,[EPSON] Consideração - Vídeo,epson_g6070,meta_ads,19,19,12,2,1.38,62.68,26.91,10.41,51.06,17.91,11.13,19.89
+2026-03-04,[EPSON] Remarketing - Carrinho,epson_g6070,meta_ads,21,21,12,2,1.56,58.93,34.12,6.95,53.78,12.01,14.72,19.49
+2026-03-04,[EPSON] Search - Marca,epson_g6070,google_ads,17,17,11,2,1.14,59.87,29.87,10.26,61.65,13.22,8.45,16.68
+2026-03-04,[EPSON] Search - Concorrente,epson_g6070,google_ads,13,13,8,2,2.7,61.94,29.07,8.99,57.62,13.53,11.47,17.38
+2026-03-04,[PPF] Conversão - Leads Frios,ppf,meta_ads,18,18,9,3,2.05,55.75,34.53,9.72,53.31,16.23,10.79,19.68
+2026-03-04,[PPF] Tráfego - Blog,ppf,meta_ads,19,19,9,4,3.25,58.65,30.19,11.16,61.69,10.84,11.24,16.23
+2026-03-05,[EPSON] Conversão - Fundo de Funil,epson_g6070,meta_ads,25,25,18,2,1.81,66.19,26.9,6.91,51.37,18.84,11.06,18.73
+2026-03-05,[EPSON] Consideração - Vídeo,epson_g6070,meta_ads,18,18,11,3,1.75,65.91,24.76,9.33,57.14,14.28,12.04,16.54
+2026-03-05,[EPSON] Remarketing - Carrinho,epson_g6070,meta_ads,17,17,11,2,1.66,58.46,33.62,7.92,52.57,18.35,9.27,19.81
+2026-03-05,[EPSON] Search - Marca,epson_g6070,google_ads,14,14,11,1,1.73,61.18,31.67,7.15,57.11,17.14,9.47,16.28
+2026-03-05,[EPSON] Search - Concorrente,epson_g6070,google_ads,9,9,6,1,2.37,68.36,22.02,9.62,60.87,14.82,8.52,15.79
+2026-03-05,[PPF] Conversão - Leads Frios,ppf,meta_ads,19,19,7,4,2.12,66.52,24.25,9.23,57.77,11.43,9.74,21.06
+2026-03-05,[PPF] Tráfego - Blog,ppf,meta_ads,22,22,10,5,1.86,69.03,21.33,9.64,53.92,16.19,9.85,20.05
+2026-03-06,[EPSON] Conversão - Fundo de Funil,epson_g6070,meta_ads,24,24,13,3,1.63,68.11,24.89,7.0,56.11,14.0,10.35,19.53
+2026-03-06,[EPSON] Consideração - Vídeo,epson_g6070,meta_ads,20,20,13,3,2.29,58.29,32.1,9.61,58.86,12.23,10.1,18.8
+2026-03-06,[EPSON] Remarketing - Carrinho,epson_g6070,meta_ads,20,20,15,2,1.75,65.28,25.25,9.47,59.13,14.6,12.22,14.05
+2026-03-06,[EPSON] Search - Marca,epson_g6070,google_ads,11,11,8,1,1.62,60.76,29.61,9.63,54.49,15.65,9.45,20.41
+2026-03-06,[EPSON] Search - Concorrente,epson_g6070,google_ads,11,11,6,1,1.56,55.45,35.82,8.73,57.62,12.95,12.06,17.37
+2026-03-06,[PPF] Conversão - Leads Frios,ppf,meta_ads,24,24,12,5,1.79,60.07,30.65,9.28,56.29,15.83,10.29,17.6
+2026-03-06,[PPF] Tráfego - Blog,ppf,meta_ads,17,17,7,4,2.12,67.44,25.09,7.47,53.74,16.02,10.08,20.16
+2026-03-07,[EPSON] Conversão - Fundo de Funil,epson_g6070,meta_ads,22,22,14,2,1.21,68.63,22.35,9.02,63.38,12.22,9.78,14.62
+2026-03-07,[EPSON] Consideração - Vídeo,epson_g6070,meta_ads,18,18,11,2,1.94,67.17,24.14,8.69,57.72,15.32,11.44,15.52
+2026-03-07,[EPSON] Remarketing - Carrinho,epson_g6070,meta_ads,19,19,11,2,1.19,62.06,27.75,10.19,52.45,19.44,12.32,15.8
+2026-03-07,[EPSON] Search - Marca,epson_g6070,google_ads,17,17,13,1,1.77,65.79,26.56,7.65,59.12,15.78,8.63,16.47
+2026-03-07,[EPSON] Search - Concorrente,epson_g6070,google_ads,10,10,5,1,2.12,59.44,31.05,9.51,50.46,19.61,12.8,17.13
+2026-03-07,[PPF] Conversão - Leads Frios,ppf,meta_ads,21,21,10,4,2.02,66.7,24.89,8.41,54.11,17.31,10.47,18.12
+2026-03-07,[PPF] Tráfego - Blog,ppf,meta_ads,22,22,8,4,3.2,66.21,23.55,10.24,56.54,16.56,11.31,15.58
+2026-03-08,[EPSON] Conversão - Fundo de Funil,epson_g6070,meta_ads,23,23,16,2,1.88,55.03,33.95,11.02,56.84,12.94,11.63,18.59
+2026-03-08,[EPSON] Consideração - Vídeo,epson_g6070,meta_ads,19,19,12,3,2.33,65.51,27.46,7.03,53.98,13.9,11.0,21.12
+2026-03-08,[EPSON] Remarketing - Carrinho,epson_g6070,meta_ads,20,20,12,2,1.45,59.83,29.95,10.22,56.2,15.06,11.33,17.4
+2026-03-08,[EPSON] Search - Marca,epson_g6070,google_ads,12,12,9,1,1.8,58.99,32.96,8.05,53.46,17.84,10.54,18.16
+2026-03-08,[EPSON] Search - Concorrente,epson_g6070,google_ads,13,13,7,1,2.32,60.21,28.63,11.16,56.36,16.99,11.63,15.03
+2026-03-08,[PPF] Conversão - Leads Frios,ppf,meta_ads,20,20,9,3,1.96,61.69,30.65,7.66,54.98,18.05,11.82,15.15
+2026-03-08,[PPF] Tráfego - Blog,ppf,meta_ads,21,21,8,5,2.55,64.05,28.96,6.99,54.6,16.93,8.59,19.88
+2026-03-09,[EPSON] Conversão - Fundo de Funil,epson_g6070,meta_ads,18,18,13,2,2.14,67.63,23.47,8.9,51.13,19.35,10.13,19.4
+2026-03-09,[EPSON] Consideração - Vídeo,epson_g6070,meta_ads,21,21,12,3,2.15,68.5,20.64,10.86,50.78,18.7,9.24,21.28
+2026-03-09,[EPSON] Remarketing - Carrinho,epson_g6070,meta_ads,24,24,16,3,2.04,68.34,20.96,10.7,50.45,17.04,9.39,23.12
+2026-03-09,[EPSON] Search - Marca,epson_g6070,google_ads,13,13,9,1,1.77,67.22,23.92,8.86,56.47,13.32,10.11,20.1
+2026-03-09,[EPSON] Search - Concorrente,epson_g6070,google_ads,10,10,6,2,2.19,65.83,26.63,7.54,56.1,16.28,11.56,16.07
+2026-03-09,[PPF] Conversão - Leads Frios,ppf,meta_ads,18,18,7,3,2.06,58.25,33.83,7.92,51.54,17.43,14.03,17.0
+2026-03-09,[PPF] Tráfego - Blog,ppf,meta_ads,22,21,10,5,1.84,56.32,35.55,8.13,53.1,14.75,13.19,18.96
+2026-03-10,[EPSON] Conversão - Fundo de Funil,epson_g6070,meta_ads,20,20,14,2,1.82,57.82,34.83,7.35,51.48,17.94,12.24,18.34
+2026-03-10,[EPSON] Consideração - Vídeo,epson_g6070,meta_ads,18,18,11,3,1.58,58.24,31.61,10.15,60.5,10.94,10.16,18.4
+2026-03-10,[EPSON] Remarketing - Carrinho,epson_g6070,meta_ads,17,17,10,2,1.61,63.08,29.5,7.42,56.84,16.41,9.34,17.41
+2026-03-10,[EPSON] Search - Marca,epson_g6070,google_ads,14,14,10,1,1.36,62.2,28.99,8.81,50.03,15.6,13.7,20.66
+2026-03-10,[EPSON] Search - Concorrente,epson_g6070,google_ads,11,11,6,2,1.53,59.69,33.27,7.04,57.98,16.39,7.34,18.29
+2026-03-10,[PPF] Conversão - Leads Frios,ppf,meta_ads,18,18,9,4,2.96,64.17,27.19,8.64,57.91,12.31,11.66,18.12
+2026-03-10,[PPF] Tráfego - Blog,ppf,meta_ads,19,19,9,4,2.73,59.73,32.72,7.55,56.41,15.15,12.33,16.11
+2026-03-11,[EPSON] Conversão - Fundo de Funil,epson_g6070,meta_ads,18,18,10,2,1.75,62.48,27.06,10.46,53.55,14.42,10.12,21.91
+2026-03-11,[EPSON] Consideração - Vídeo,epson_g6070,meta_ads,20,20,13,2,2.2,67.71,25.47,6.82,56.59,13.16,9.18,21.06
+2026-03-11,[EPSON] Remarketing - Carrinho,epson_g6070,meta_ads,22,21,15,2,1.34,57.79,31.57,10.64,51.24,16.37,10.56,21.83
+2026-03-11,[EPSON] Search - Marca,epson_g6070,google_ads,15,15,11,1,1.25,59.05,33.56,7.39,61.18,13.07,10.09,15.65
+2026-03-11,[EPSON] Search - Concorrente,epson_g6070,google_ads,13,13,8,2,2.01,61.93,26.94,11.13,58.51,14.82,11.5,15.17
+2026-03-11,[PPF] Conversão - Leads Frios,ppf,meta_ads,21,21,9,4,2.26,67.2,24.7,8.1,54.86,16.01,12.35,16.78
+2026-03-11,[PPF] Tráfego - Blog,ppf,meta_ads,24,24,9,4,2.06,64.18,24.92,10.9,61.19,11.24,12.03,15.54
+2026-03-12,[EPSON] Conversão - Fundo de Funil,epson_g6070,meta_ads,20,20,13,3,1.38,65.89,24.1,10.01,55.95,14.51,12.99,16.55
+2026-03-12,[EPSON] Consideração - Vídeo,epson_g6070,meta_ads,21,20,14,3,1.46,69.43,21.66,8.91,52.62,16.44,9.51,21.43
+2026-03-12,[EPSON] Remarketing - Carrinho,epson_g6070,meta_ads,20,20,13,2,1.46,58.45,32.49,9.06,56.32,11.71,14.06,17.92
+2026-03-12,[EPSON] Search - Marca,epson_g6070,google_ads,16,16,11,1,1.45,57.85,34.74,7.41,51.81,18.88,11.63,17.68
+2026-03-12,[EPSON] Search - Concorrente,epson_g6070,google_ads,9,9,5,1,2.1,64.3,25.87,9.83,50.3,17.42,13.66,18.62
+2026-03-12,[PPF] Conversão - Leads Frios,ppf,meta_ads,22,22,11,3,2.6,61.83,27.29,10.88,59.03,16.81,8.6,15.55
+2026-03-12,[PPF] Tráfego - Blog,ppf,meta_ads,23,23,10,5,2.37,67.1,25.11,7.79,60.62,10.96,11.12,17.31
+2026-03-13,[EPSON] Conversão - Fundo de Funil,epson_g6070,meta_ads,23,23,15,3,1.69,54.66,36.11,9.23,50.11,16.55,10.44,22.9
+2026-03-13,[EPSON] Consideração - Vídeo,epson_g6070,meta_ads,15,15,9,2,2.37,56.15,36.67,7.18,52.87,13.41,12.06,21.66
+2026-03-13,[EPSON] Remarketing - Carrinho,epson_g6070,meta_ads,18,18,11,2,1.66,69.29,22.94,7.77,54.33,16.31,10.87,18.49
+2026-03-13,[EPSON] Search - Marca,epson_g6070,google_ads,15,15,10,1,1.03,54.7,37.78,7.52,55.1,14.21,12.55,18.13
+2026-03-13,[EPSON] Search - Concorrente,epson_g6070,google_ads,13,13,7,1,1.74,67.48,21.78,10.74,57.92,11.68,8.74,21.66
+2026-03-13,[PPF] Conversão - Leads Frios,ppf,meta_ads,26,26,10,6,2.04,68.87,21.74,9.39,59.02,16.22,10.02,14.74
+2026-03-13,[PPF] Tráfego - Blog,ppf,meta_ads,17,17,8,3,3.09,59.5,30.35,10.15,49.62,19.45,12.6,18.33
+2026-03-14,[EPSON] Conversão - Fundo de Funil,epson_g6070,meta_ads,26,25,16,3,1.54,66.0,22.95,11.05,56.25,18.05,8.45,17.25
+2026-03-14,[EPSON] Consideração - Vídeo,epson_g6070,meta_ads,22,22,12,3,1.82,64.67,25.61,9.72,49.7,16.69,13.39,20.22
+2026-03-14,[EPSON] Remarketing - Carrinho,epson_g6070,meta_ads,17,17,12,2,1.83,59.27,33.5,7.23,53.48,15.56,11.78,19.18
+2026-03-14,[EPSON] Search - Marca,epson_g6070,google_ads,12,12,8,1,1.32,54.95,36.71,8.34,52.64,17.43,10.92,19.01
+2026-03-14,[EPSON] Search - Concorrente,epson_g6070,google_ads,10,10,5,2,2.61,69.12,21.56,9.32,55.55,15.76,9.88,18.81
+2026-03-14,[PPF] Conversão - Leads Frios,ppf,meta_ads,22,21,10,4,2.28,55.7,36.42,7.88,53.83,16.98,12.25,16.95
+2026-03-14,[PPF] Tráfego - Blog,ppf,meta_ads,17,17,8,3,2.68,66.52,25.25,8.23,50.35,16.87,12.63,20.15
+2026-03-15,[EPSON] Conversão - Fundo de Funil,epson_g6070,meta_ads,19,19,13,2,1.51,68.91,19.98,11.11,52.92,17.0,11.18,18.89
+2026-03-15,[EPSON] Consideração - Vídeo,epson_g6070,meta_ads,16,16,10,2,1.46,62.95,27.63,9.42,53.86,15.64,10.7,19.81
+2026-03-15,[EPSON] Remarketing - Carrinho,epson_g6070,meta_ads,20,20,13,2,1.79,66.75,22.92,10.33,55.66,15.41,12.15,16.78
+2026-03-15,[EPSON] Search - Marca,epson_g6070,google_ads,15,15,11,1,1.81,61.69,29.76,8.55,53.4,17.63,11.59,17.39
+2026-03-15,[EPSON] Search - Concorrente,epson_g6070,google_ads,12,12,7,2,2.27,55.82,33.97,10.21,59.23,13.79,11.92,15.06
+2026-03-15,[PPF] Conversão - Leads Frios,ppf,meta_ads,26,26,12,5,2.94,60.97,32.23,6.8,53.34,15.74,11.6,19.32
+2026-03-15,[PPF] Tráfego - Blog,ppf,meta_ads,21,21,9,5,2.63,62.01,29.69,8.3,51.82,13.04,11.7,23.44
+2026-03-16,[EPSON] Conversão - Fundo de Funil,epson_g6070,meta_ads,19,19,11,2,1.65,57.64,33.44,8.92,56.06,14.62,12.33,16.99
+2026-03-16,[EPSON] Consideração - Vídeo,epson_g6070,meta_ads,17,17,9,3,2.07,64.64,27.87,7.49,63.6,12.43,8.7,15.28
+2026-03-16,[EPSON] Remarketing - Carrinho,epson_g6070,meta_ads,20,20,12,2,1.3,64.09,27.22,8.69,51.56,17.69,10.13,20.62
+2026-03-16,[EPSON] Search - Marca,epson_g6070,google_ads,13,13,8,1,1.66,55.49,37.3,7.21,61.34,11.95,9.59,17.12
+2026-03-16,[EPSON] Search - Concorrente,epson_g6070,google_ads,10,10,6,1,2.22,63.66,26.95,9.39,51.6,17.45,11.43,19.53
+2026-03-16,[PPF] Conversão - Leads Frios,ppf,meta_ads,24,24,11,3,1.79,56.31,35.57,8.12,52.35,17.54,11.68,18.43
+2026-03-16,[PPF] Tráfego - Blog,ppf,meta_ads,17,17,7,4,2.79,64.16,24.59,11.25,58.51,15.28,9.0,17.21
+2026-03-17,[EPSON] Conversão - Fundo de Funil,epson_g6070,meta_ads,22,21,13,2,1.33,66.69,22.22,11.09,55.74,14.86,12.06,17.34
+2026-03-17,[EPSON] Consideração - Vídeo,epson_g6070,meta_ads,20,20,10,2,2.2,58.91,33.1,7.99,57.17,12.3,10.81,19.71
+2026-03-17,[EPSON] Remarketing - Carrinho,epson_g6070,meta_ads,22,22,13,2,1.86,66.81,24.79,8.4,59.93,10.69,11.84,17.55
+2026-03-17,[EPSON] Search - Marca,epson_g6070,google_ads,17,17,13,2,1.23,69.43,21.8,8.77,51.69,17.24,10.37,20.7
+2026-03-17,[EPSON] Search - Concorrente,epson_g6070,google_ads,12,12,7,2,1.91,65.14,25.26,9.6,56.94,13.83,10.62,18.61
+2026-03-17,[PPF] Conversão - Leads Frios,ppf,meta_ads,18,18,8,3,2.06,65.04,26.91,8.05,50.07,17.57,13.65,18.7
+2026-03-17,[PPF] Tráfego - Blog,ppf,meta_ads,17,17,8,4,3.24,67.46,25.22,7.32,58.3,11.86,11.32,18.52
+2026-03-18,[EPSON] Conversão - Fundo de Funil,epson_g6070,meta_ads,24,24,15,3,1.46,60.72,30.5,8.78,56.72,17.58,8.21,17.49
+2026-03-18,[EPSON] Consideração - Vídeo,epson_g6070,meta_ads,16,16,9,3,1.7,54.6,35.17,10.23,56.49,15.77,10.0,17.74
+2026-03-18,[EPSON] Remarketing - Carrinho,epson_g6070,meta_ads,19,19,12,2,1.53,57.71,34.33,7.96,58.98,12.85,10.81,17.36
+2026-03-18,[EPSON] Search - Marca,epson_g6070,google_ads,14,14,10,1,1.06,66.22,24.96,8.82,52.73,19.61,11.58,16.08
+2026-03-18,[EPSON] Search - Concorrente,epson_g6070,google_ads,13,13,8,1,2.29,56.93,32.12,10.95,54.51,17.27,10.03,18.19
+2026-03-18,[PPF] Conversão - Leads Frios,ppf,meta_ads,26,25,12,4,2.58,58.04,32.26,9.7,61.72,11.1,11.15,16.04
+2026-03-18,[PPF] Tráfego - Blog,ppf,meta_ads,18,18,7,4,2.98,69.26,22.09,8.65,54.13,12.7,11.45,21.72
+2026-03-19,[EPSON] Conversão - Fundo de Funil,epson_g6070,meta_ads,19,19,13,2,1.98,65.77,26.88,7.35,63.44,11.55,10.76,14.25
+2026-03-19,[EPSON] Consideração - Vídeo,epson_g6070,meta_ads,19,19,12,3,1.5,60.69,29.47,9.84,61.44,11.2,8.29,19.07
+2026-03-19,[EPSON] Remarketing - Carrinho,epson_g6070,meta_ads,21,21,16,2,1.25,58.68,34.19,7.13,54.68,15.17,11.17,18.98
+2026-03-19,[EPSON] Search - Marca,epson_g6070,google_ads,15,15,11,1,1.41,62.14,27.74,10.12,53.19,11.54,13.79,21.48
+2026-03-19,[EPSON] Search - Concorrente,epson_g6070,google_ads,11,11,6,2,2.14,69.11,19.7,11.19,59.77,10.99,12.21,17.03
+2026-03-19,[PPF] Conversão - Leads Frios,ppf,meta_ads,21,21,10,5,2.67,54.81,38.14,7.05,56.58,12.3,9.16,21.96
+2026-03-19,[PPF] Tráfego - Blog,ppf,meta_ads,20,20,9,4,2.8,55.79,35.05,9.16,58.71,13.21,9.89,18.19
+2026-03-20,[EPSON] Conversão - Fundo de Funil,epson_g6070,meta_ads,19,19,12,2,1.84,66.98,23.21,9.81,48.92,17.26,12.86,20.96
+2026-03-20,[EPSON] Consideração - Vídeo,epson_g6070,meta_ads,15,15,9,2,2.02,59.16,30.75,10.09,58.38,11.32,11.78,18.52
+2026-03-20,[EPSON] Remarketing - Carrinho,epson_g6070,meta_ads,17,17,11,2,1.81,57.04,35.64,7.32,57.17,12.11,12.4,18.32
+2026-03-20,[EPSON] Search - Marca,epson_g6070,google_ads,11,11,7,1,1.58,63.14,29.76,7.1,56.02,14.06,11.18,18.74
+2026-03-20,[EPSON] Search - Concorrente,epson_g6070,google_ads,10,10,5,1,2.38,57.96,33.0,9.04,50.82,19.6,10.24,19.35
+2026-03-20,[PPF] Conversão - Leads Frios,ppf,meta_ads,21,21,11,4,2.37,68.16,21.76,10.08,55.6,13.81,10.72,19.87
+2026-03-20,[PPF] Tráfego - Blog,ppf,meta_ads,18,18,7,4,3.1,57.23,32.4,10.37,59.39,17.01,7.54,16.06
+2026-03-21,[EPSON] Conversão - Fundo de Funil,epson_g6070,meta_ads,20,20,12,2,1.2,57.55,33.16,9.29,53.41,16.45,11.06,19.08
+2026-03-21,[EPSON] Consideração - Vídeo,epson_g6070,meta_ads,18,18,9,3,2.2,58.21,35.01,6.78,55.75,13.12,10.34,20.78
+2026-03-21,[EPSON] Remarketing - Carrinho,epson_g6070,meta_ads,23,23,13,2,1.94,65.38,27.4,7.22,59.27,13.4,11.47,15.86
+2026-03-21,[EPSON] Search - Marca,epson_g6070,google_ads,17,17,10,2,1.73,62.29,27.81,9.9,55.52,19.73,8.77,15.98
+2026-03-21,[EPSON] Search - Concorrente,epson_g6070,google_ads,9,9,4,1,2.02,68.91,23.27,7.82,52.88,13.89,13.28,19.94
+2026-03-21,[PPF] Conversão - Leads Frios,ppf,meta_ads,24,24,10,3,1.89,66.17,24.45,9.38,54.86,13.62,12.07,19.45
+2026-03-21,[PPF] Tráfego - Blog,ppf,meta_ads,20,20,8,4,2.15,56.34,36.2,7.46,57.05,16.94,11.66,14.34
+2026-03-22,[EPSON] Conversão - Fundo de Funil,epson_g6070,meta_ads,25,25,14,2,1.55,62.2,28.0,9.8,53.42,19.96,8.47,18.15
+2026-03-22,[EPSON] Consideração - Vídeo,epson_g6070,meta_ads,18,18,10,2,2.25,56.64,36.56,6.8,56.69,17.24,7.89,18.18
+2026-03-22,[EPSON] Remarketing - Carrinho,epson_g6070,meta_ads,19,19,13,2,1.37,66.65,26.5,6.85,51.41,20.01,11.6,16.98
+2026-03-22,[EPSON] Search - Marca,epson_g6070,google_ads,16,16,11,1,1.37,57.06,33.61,9.33,60.14,13.59,7.8,18.47
+2026-03-22,[EPSON] Search - Concorrente,epson_g6070,google_ads,10,10,5,1,2.58,55.08,35.38,9.54,54.74,14.29,11.25,19.72
+2026-03-22,[PPF] Conversão - Leads Frios,ppf,meta_ads,18,18,7,3,2.83,62.38,28.03,9.59,54.75,15.41,12.36,17.48
+2026-03-22,[PPF] Tráfego - Blog,ppf,meta_ads,19,19,8,5,2.5,60.34,32.1,7.56,53.29,12.87,13.68,20.16
+2026-03-23,[EPSON] Conversão - Fundo de Funil,epson_g6070,meta_ads,18,18,11,2,2.21,69.05,23.75,7.2,55.89,12.32,12.23,19.56
+2026-03-23,[EPSON] Consideração - Vídeo,epson_g6070,meta_ads,15,15,8,2,2.24,59.84,29.63,10.53,58.95,11.5,10.83,18.71
+2026-03-23,[EPSON] Remarketing - Carrinho,epson_g6070,meta_ads,22,22,12,2,2.03,62.95,27.77,9.28,49.66,19.08,13.34,17.93
+2026-03-23,[EPSON] Search - Marca,epson_g6070,google_ads,13,13,8,1,1.16,62.39,30.86,6.75,61.33,11.89,8.3,18.47
+2026-03-23,[EPSON] Search - Concorrente,epson_g6070,google_ads,13,13,7,1,2.21,68.21,21.56,10.23,56.22,16.09,12.35,15.34
+2026-03-23,[PPF] Conversão - Leads Frios,ppf,meta_ads,26,26,11,4,1.8,56.9,32.08,11.02,57.0,17.38,10.98,14.64
+2026-03-23,[PPF] Tráfego - Blog,ppf,meta_ads,24,24,12,5,2.08,63.32,29.14,7.54,53.79,17.12,8.99,20.11
+2026-03-24,[EPSON] Conversão - Fundo de Funil,epson_g6070,meta_ads,26,26,16,4,2.17,55.04,35.5,9.46,58.03,17.03,8.35,16.58
+2026-03-24,[EPSON] Consideração - Vídeo,epson_g6070,meta_ads,21,21,13,2,2.45,57.06,32.21,10.73,49.27,17.3,12.25,21.18
+2026-03-24,[EPSON] Remarketing - Carrinho,epson_g6070,meta_ads,20,20,12,2,1.37,56.17,37.07,6.76,51.13,16.14,13.22,19.51
+2026-03-24,[EPSON] Search - Marca,epson_g6070,google_ads,14,14,10,1,1.38,67.42,22.9,9.68,59.44,12.1,8.33,20.13
+2026-03-24,[EPSON] Search - Concorrente,epson_g6070,google_ads,10,10,6,1,1.68,60.15,29.81,10.04,55.62,17.92,8.29,18.17
+2026-03-24,[PPF] Conversão - Leads Frios,ppf,meta_ads,23,23,9,5,1.84,67.8,24.74,7.46,53.98,14.1,10.23,21.7
+2026-03-24,[PPF] Tráfego - Blog,ppf,meta_ads,22,22,9,4,2.11,55.3,35.38,9.32,61.25,11.78,9.88,17.08
+2026-03-25,[EPSON] Conversão - Fundo de Funil,epson_g6070,meta_ads,20,20,13,2,1.22,57.1,34.84,8.06,51.37,19.31,10.6,18.72
+2026-03-25,[EPSON] Consideração - Vídeo,epson_g6070,meta_ads,18,18,9,2,1.54,67.74,23.85,8.41,57.84,13.71,11.36,17.09
+2026-03-25,[EPSON] Remarketing - Carrinho,epson_g6070,meta_ads,18,18,13,2,1.2,59.68,31.13,9.19,58.07,13.97,10.05,17.92
+2026-03-25,[EPSON] Search - Marca,epson_g6070,google_ads,16,16,11,2,1.38,67.68,23.43,8.89,49.37,19.1,12.8,18.72
+2026-03-25,[EPSON] Search - Concorrente,epson_g6070,google_ads,13,13,8,2,1.62,65.83,26.64,7.53,58.09,16.75,11.39,13.76
+2026-03-25,[PPF] Conversão - Leads Frios,ppf,meta_ads,21,21,9,5,2.48,66.97,25.12,7.91,59.32,17.05,7.69,15.94
+2026-03-25,[PPF] Tráfego - Blog,ppf,meta_ads,19,19,8,4,3.06,66.26,24.19,9.55,58.22,14.77,10.8,16.21
+2026-03-26,[EPSON] Conversão - Fundo de Funil,epson_g6070,meta_ads,23,23,16,3,1.76,56.06,35.9,8.04,57.82,13.95,10.65,17.58
+2026-03-26,[EPSON] Consideração - Vídeo,epson_g6070,meta_ads,18,18,9,2,1.49,63.62,26.51,9.87,51.19,20.03,10.92,17.87
+2026-03-26,[EPSON] Remarketing - Carrinho,epson_g6070,meta_ads,22,22,16,2,1.9,59.07,32.92,8.01,55.06,16.42,8.41,20.11
+2026-03-26,[EPSON] Search - Marca,epson_g6070,google_ads,12,12,8,1,1.21,60.76,29.59,9.65,52.41,13.26,13.7,20.63
+2026-03-26,[EPSON] Search - Concorrente,epson_g6070,google_ads,12,12,7,2,1.67,59.19,31.78,9.03,51.27,18.92,14.05,15.75
+2026-03-26,[PPF] Conversão - Leads Frios,ppf,meta_ads,19,19,10,3,2.24,68.22,21.86,9.92,51.93,17.88,11.14,19.05
+2026-03-26,[PPF] Tráfego - Blog,ppf,meta_ads,17,17,7,4,2.02,67.51,23.1,9.39,53.95,12.4,13.68,19.98
+2026-03-27,[EPSON] Conversão - Fundo de Funil,epson_g6070,meta_ads,24,24,14,2,1.77,68.92,20.47,10.61,57.56,16.1,9.35,17.0
+2026-03-27,[EPSON] Consideração - Vídeo,epson_g6070,meta_ads,15,15,9,1,2.37,64.19,26.35,9.46,52.0,14.58,14.53,18.89
+2026-03-27,[EPSON] Remarketing - Carrinho,epson_g6070,meta_ads,24,24,15,2,1.45,58.31,32.84,8.85,57.79,17.19,10.06,14.96
+2026-03-27,[EPSON] Search - Marca,epson_g6070,google_ads,14,14,11,1,1.52,63.62,28.29,8.09,52.08,12.27,15.17,20.48
+2026-03-27,[EPSON] Search - Concorrente,epson_g6070,google_ads,13,13,8,2,1.85,56.79,33.02,10.19,56.62,15.53,11.37,16.48
+2026-03-27,[PPF] Conversão - Leads Frios,ppf,meta_ads,23,23,11,4,2.99,58.42,32.95,8.63,56.23,11.61,12.85,19.32
+2026-03-27,[PPF] Tráfego - Blog,ppf,meta_ads,18,18,7,4,2.93,68.05,22.18,9.77,52.19,16.64,12.17,19.0

@@ -1,0 +1,6 @@
+{
+    "workbench.editor.autoLockGroups": {
+        "vscode.videoPreview": true,
+        "vscode.audioPreview": true
+    }
+}

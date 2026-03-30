@@ -1,0 +1,211 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ADS-AGENT Payload Schema",
+  "description": "Schema do payload que o n8n deve enviar ao dashboard via POST. Pode ser array de registros ou registro único.",
+  "oneOf": [
+    { "$ref": "#/definitions/CampaignRecord" },
+    {
+      "type": "array",
+      "items": { "$ref": "#/definitions/CampaignRecord" }
+    }
+  ],
+  "definitions": {
+    "CampaignRecord": {
+      "type": "object",
+      "required": [
+        "product_id",
+        "campaign_name",
+        "source",
+        "ad_spend",
+        "leads_raw",
+        "leads_qualified_by_ai",
+        "conversion_value"
+      ],
+      "properties": {
+        "product_id": {
+          "type": "string",
+          "description": "Identificador único do produto (ex: 'epson_g6070', 'ppf'). Snake_case.",
+          "example": "epson_g6070"
+        },
+        "product_label": {
+          "type": "string",
+          "description": "Nome de exibição do produto no dashboard.",
+          "example": "Epson G6070"
+        },
+        "campaign_name": {
+          "type": "string",
+          "description": "Nome da campanha exatamente como está na plataforma de Ads.",
+          "example": "[EPSON] Conversão - Fundo de Funil"
+        },
+        "campaign_id": {
+          "type": "string",
+          "description": "ID da campanha na plataforma de Ads."
+        },
+        "ad_set_name": {
+          "type": "string",
+          "description": "Nome do conjunto de anúncios (Ad Set / Ad Group)."
+        },
+        "creative_id": {
+          "type": "string",
+          "description": "ID do criativo/anúncio específico."
+        },
+        "source": {
+          "type": "string",
+          "enum": ["meta_ads", "google_ads", "organic", "referral", "manual"],
+          "description": "Plataforma de origem do lead."
+        },
+        "date": {
+          "type": "string",
+          "format": "date",
+          "description": "Data de referência dos dados (YYYY-MM-DD). Se omitido, usa data atual.",
+          "example": "2026-03-22"
+        },
+        "ad_spend": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Valor gasto em anúncios no período (R$).",
+          "example": 437.13
+        },
+        "impressions": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Total de impressões da campanha."
+        },
+        "clicks": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Total de cliques no anúncio."
+        },
+        "reach": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Alcance único da campanha."
+        },
+        "leads_raw": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Total de leads brutos que chegaram ao Agente de IA."
+        },
+        "ai_leads_responded": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Leads que iniciaram conversa e receberam resposta da IA."
+        },
+        "leads_qualified_by_ai": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Leads qualificados como oportunidade real pela IA."
+        },
+        "ai_overflow_count": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Número de atendimentos transferidos da IA para humano."
+        },
+        "ai_avg_response_minutes": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Tempo médio de resposta da IA em minutos."
+        },
+        "sentiment_positive": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "% de leads com sentimento positivo/alta intenção de compra."
+        },
+        "sentiment_neutral": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "% de leads com sentimento neutro/interesse inicial."
+        },
+        "sentiment_negative": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "% de leads com sentimento negativo/sem intenção de compra."
+        },
+        "lead_profile_breakdown": {
+          "type": "object",
+          "description": "Distribuição de perfis de lead detectados pela IA.",
+          "additionalProperties": {
+            "type": "number"
+          },
+          "example": {
+            "Gestor Atuante": 58,
+            "Quer Começar": 14,
+            "Não Trabalha": 10,
+            "No de Negócio": 18
+          }
+        },
+        "conversion_value": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Valor total das oportunidades geradas no CRM (R$) atribuídas a esta campanha."
+        },
+        "crm_opportunity_id": {
+          "type": "string",
+          "description": "ID(s) da(s) oportunidade(s) no Salesforce. Separar por vírgula se múltiplas."
+        },
+        "crm_stage": {
+          "type": "string",
+          "description": "Estágio médio das oportunidades no pipeline do CRM.",
+          "example": "Proposta Enviada"
+        },
+        "interest_extended_warranty": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "% de leads que demonstraram interesse em garantia estendida."
+        },
+        "interest_ink_recurrence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "% de leads interessados em programa de recorrência de tintas."
+        },
+        "currency": {
+          "type": "string",
+          "default": "BRL",
+          "description": "Moeda dos valores monetários."
+        },
+        "metadata": {
+          "type": "object",
+          "description": "Campos extras livres para extensibilidade futura.",
+          "additionalProperties": true
+        }
+      }
+    }
+  },
+  "_exemplo_payload": {
+    "product_id": "epson_g6070",
+    "product_label": "Epson G6070",
+    "campaign_name": "[EPSON] Conversão - Fundo de Funil",
+    "campaign_id": "23851234567890",
+    "source": "meta_ads",
+    "date": "2026-03-22",
+    "ad_spend": 244.13,
+    "impressions": 9726,
+    "clicks": 262,
+    "reach": 8900,
+    "leads_raw": 262,
+    "ai_leads_responded": 258,
+    "leads_qualified_by_ai": 157,
+    "ai_overflow_count": 12,
+    "ai_avg_response_minutes": 1.8,
+    "sentiment_positive": 62,
+    "sentiment_neutral": 28,
+    "sentiment_negative": 10,
+    "lead_profile_breakdown": {
+      "Gestor Atuante": 58,
+      "Quer Começar": 14,
+      "Não Trabalha": 10,
+      "No de Negócio": 18
+    },
+    "conversion_value": 18500.00,
+    "crm_opportunity_id": "0064x00001A2B3C",
+    "crm_stage": "Proposta Enviada",
+    "interest_extended_warranty": 35,
+    "interest_ink_recurrence": 48,
+    "currency": "BRL"
+  }
+}

@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── CSS Variables (light / dark) ─────────────────────────────────────────── */
+@layer base {
+  :root {
+    --bg:           #F8FAFC;
+    --bg-card:      #FFFFFF;
+    --bg-sidebar:   #EBF4FF;
+    --border:       #E2E8F0;
+    --border-light: #F1F5F9;
+    --text:         #1A202C;
+    --text-2:       #718096;
+    --text-muted:   #A0AEC0;
+    --shadow:       0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+  }
+  .dark {
+    --bg:           #0F172A;
+    --bg-card:      #1E293B;
+    --bg-sidebar:   #162032;
+    --border:       #334155;
+    --border-light: #1E293B;
+    --text:         #F1F5F9;
+    --text-2:       #94A3B8;
+    --text-muted:   #64748B;
+    --shadow:       0 1px 3px rgba(0,0,0,0.3), 0 1px 2px rgba(0,0,0,0.2);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { background-color: var(--bg); color: var(--text); transition: background-color 0.2s, color 0.2s; }
+
+  body {
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  #root { width: 100%; min-height: 100vh; display: flex; }
+
+  ::-webkit-scrollbar { width: 5px; height: 5px; }
+  ::-webkit-scrollbar-track { background: var(--border-light); }
+  ::-webkit-scrollbar-thumb { background: #B3D4F5; border-radius: 3px; }
+  .dark ::-webkit-scrollbar-thumb { background: #334155; }
+}
+
+/* ── Component Classes (auto dark-mode via CSS vars) ──────────────────────── */
+@layer components {
+  .card {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 0.75rem;
+    box-shadow: var(--shadow);
+  }
+
+  .section-label {
+    @apply text-[11px] font-bold uppercase tracking-[0.08em] mb-3 pb-2;
+    color: var(--text-muted);
+    border-bottom: 1px solid var(--border-light);
+  }
+
+  .nav-item {
+    @apply flex items-center gap-2.5 px-3 py-2 rounded-lg text-sm font-medium transition-all cursor-pointer;
+    color: var(--text-2);
+  }
+  .nav-item:hover {
+    background-color: var(--bg-card);
+    color: #2D7DD2;
+  }
+  .nav-item.active {
+    background-color: var(--bg-card);
+    color: #2D7DD2;
+    font-weight: 600;
+    box-shadow: var(--shadow);
+  }
+
+  .badge { @apply inline-flex items-center px-2 py-0.5 rounded-full text-xs font-semibold; }
+  .badge-ok       { @apply text-emerald-600; }
+  .badge-warning  { @apply text-amber-500; }
+  .badge-critical { @apply text-red-500; }
+
+  /* Table rows */
+  .tr-hover:hover { background-color: color-mix(in srgb, #2D7DD2 4%, var(--bg-card)); }
+
+  /* Theme-aware inputs */
+  .theme-select {
+    @apply text-xs rounded-lg px-3 py-1.5 font-medium focus:outline-none focus:ring-2 focus:ring-brand-300;
+    background-color: var(--bg-card);
+    border: 1px solid var(--border);
+    color: var(--text-2);
+  }
+
+  /* Period pill group */
+  .period-group { border-radius: 0.5rem; padding: 0.25rem; background-color: color-mix(in srgb, var(--border) 40%, var(--bg-card)); }
+  .period-btn { @apply px-3 py-1 rounded-md text-xs font-semibold transition-all; color: var(--text-2); }
+  .period-btn:hover { color: var(--text); }
+  .period-btn.active { background-color: var(--bg-card); color: #2D7DD2; box-shadow: var(--shadow); }
+}
