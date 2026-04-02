@@ -10,12 +10,14 @@ import { Financial } from "./pages/Financial";
 import { InsightsAI } from "./pages/InsightsAI";
 import { ChannelAnalysis } from "./pages/ChannelAnalysis";
 import { useMetaData } from "./hooks/useMetaData";
+import type { DataSource } from "./hooks/useMetaData";
 import { filterRecords, aggregate } from "./lib/kpiEngine";
 import type { Filters } from "./data/types";
 import { getStoredTheme, applyTheme } from "./lib/theme";
 import type { Theme } from "./lib/theme";
 import { AiSuggestionsCompact } from "./components/ai/AiSuggestions";
-import { generateRecommendations } from "./services/aiEngine";
+import { getRecommendations } from "./services/aiEngine";
+import type { AiRecommendation, AiEngineSource } from "./services/aiEngine";
 
 function daysAgoStr(n: number) {
   const d = new Date();
@@ -50,11 +52,23 @@ export default function App() {
 
   function toggleTheme() { setTheme(t => t === "light" ? "dark" : "light"); }
 
-  const aiRecs = useMemo(() => {
-    if (!records.length) return [];
+  const [aiRecs,       setAiRecs]       = useState<AiRecommendation[]>([]);
+  const [aiSource,     setAiSource]     = useState<AiEngineSource>("rules");
+  const [aiLoading,    setAiLoading]    = useState(false);
+
+  useEffect(() => {
+    if (!records.length) { setAiRecs([]); return; }
+    let cancelled = false;
+    setAiLoading(true);
     const m   = aggregate(records);
     const pid = [...new Set(records.map(r => r.product_id))];
-    return generateRecommendations(m, pid.length === 1 ? pid[0] : "default");
+    getRecommendations(m, pid.length === 1 ? pid[0] : "default").then(result => {
+      if (cancelled) return;
+      setAiRecs(result.recommendations);
+      setAiSource(result.source);
+      setAiLoading(false);
+    });
+    return () => { cancelled = true; };
   }, [records]);
 
   const pageContent: Record<string, React.ReactNode> = {
@@ -68,10 +82,12 @@ export default function App() {
 
   // Badge da fonte de dados
   const sourceBadge = source === "loading"
-    ? { label: "Carregando...", dot: "bg-amber-400",   text: "text-amber-500"  }
+    ? { label: "Carregando...",                         dot: "bg-amber-400",   text: "text-amber-500"   }
     : source === "real"
     ? { label: `Meta: ${connection.account?.name ?? ""}`, dot: "bg-emerald-400", text: "text-emerald-500" }
-    : { label: "Dados Mock (sem campanhas ativas)", dot: "bg-slate-400", text: "text-slate-400" };
+    : source === "csv"
+    ? { label: "CSV Local",                             dot: "bg-blue-400",    text: "text-blue-400"    }
+    : { label: "Demonstração",                          dot: "bg-slate-400",   text: "text-slate-400"   };
 
   return (
     <div className="flex min-h-screen w-full" style={{ backgroundColor: "var(--bg)" }}>
@@ -108,6 +124,16 @@ export default function App() {
             <div className="hidden sm:flex items-center gap-1.5 text-xs px-2 mr-1">
               <span className={`w-1.5 h-1.5 rounded-full ${sourceBadge.dot} inline-block ${source === "loading" ? "animate-pulse" : ""}`} />
               <span className={`hidden md:inline text-[11px] font-medium ${sourceBadge.text}`}>{sourceBadge.label}</span>
+            </div>
+
+            {/* Badge IA source */}
+            <div className="hidden md:flex items-center gap-1 text-[10px] font-medium px-2 py-0.5 rounded-full mr-1"
+                 style={{ backgroundColor: aiSource === "manus" ? "#EBF4FF" : "#F1F5F9", color: aiSource === "manus" ? "#2D7DD2" : "#718096" }}>
+              {aiLoading
+                ? <span className="animate-pulse">IA...</span>
+                : aiSource === "manus"
+                  ? "⚡ Manus IA"
+                  : "⚙ Regras"}
             </div>
 
             {/* Refresh */}
@@ -183,10 +209,9 @@ export default function App() {
           {source === "loading" ? (
             <LoadingScreen />
           ) : records.length === 0 ? (
-            <div className="flex flex-col items-center justify-center h-64" style={{ color: "var(--text-muted)" }}>
-              <p className="text-lg font-semibold">Nenhum dado para o filtro selecionado.</p>
-              <p className="text-sm mt-1">Tente ampliar o período ou remover filtros.</p>
-            </div>
+            <EmptyState source={source} onExpand={() =>
+              setFilters(prev => ({ ...prev, dateStart: daysAgoStr(30), dateEnd: today }))
+            } />
           ) : pageContent[page]}
         </div>
       </main>
@@ -199,6 +224,29 @@ function LoadingScreen() {
     <div className="flex flex-col items-center justify-center h-64 gap-4">
       <div className="w-8 h-8 border-2 border-brand-600 border-t-transparent rounded-full animate-spin" />
       <p className="text-sm font-medium" style={{ color: "var(--text-2)" }}>Conectando à Meta Ads API...</p>
+    </div>
+  );
+}
+
+function EmptyState({ source, onExpand }: { source: DataSource; onExpand: () => void }) {
+  const isCsv = source === "csv";
+  return (
+    <div className="flex flex-col items-center justify-center h-64 gap-3" style={{ color: "var(--text-muted)" }}>
+      <p className="text-lg font-semibold">Nenhum dado para o período selecionado.</p>
+      {isCsv ? (
+        <>
+          <p className="text-sm">Os CSVs não possuem dados para esta data. Amplie o período ou exporte novos arquivos.</p>
+          <button
+            onClick={onExpand}
+            className="mt-2 px-4 py-2 text-sm font-medium rounded-lg transition-colors"
+            style={{ backgroundColor: "var(--brand)", color: "#fff" }}
+          >
+            Ver últimos 30 dias
+          </button>
+        </>
+      ) : (
+        <p className="text-sm">Tente ampliar o período ou remover filtros.</p>
+      )}
     </div>
   );
 }
